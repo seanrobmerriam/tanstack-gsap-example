@@ -22,7 +22,8 @@ bun run preview
 ## Site files
 
 - `src/routes/index.tsx`: homepage route and client animation lifecycle.
-- `src/components/landing-page.tsx`: server-rendered landing page markup.
+- `src/components/landing-page.tsx`: page layout composing individual section components.
+- `src/components/*.tsx`: navbar, hero, ticker, about, services, process, FAQ, contact, motion index, footer, and page indicators.
 - `src/lib/landing-animations.js`: GSAP effects, initialized after hydration and cleaned up on unmount.
 - `src/styles.css`: original responsive design and reduced-motion styles.
 - `public/fonts`: bundled fonts served locally.
